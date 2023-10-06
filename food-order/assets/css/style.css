@@ -1,0 +1,58 @@
+/* Add some basic styling to the homepage */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Header and footer styles - customize as needed */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
